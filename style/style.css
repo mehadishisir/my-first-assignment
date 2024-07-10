@@ -128,3 +128,16 @@ padding: 12px 20px 12px 20px;
 .main-content-onlyt{
   padding: 10px 100px 0px 0px;
 }
+/* main next */
+.inspiration-video{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  width: 1076px;
+
+  
+}
+.main-next-content{
+  margin-bottom: 80px;
+}
+
