@@ -9,6 +9,7 @@
     text-align: center;
     background-image: url(../assets/Hero-bg.png);
     margin: 0;
+
   }
   .banner-title{
     color: rgb(13, 19, 33);
@@ -45,6 +46,9 @@ background: rgb(13, 19, 33);
   padding: 26px 221px 41px;
 }
 /* wwd edit */
+.w-w-d{
+  padding: 80px 97px;
+}
 .w-w-d-title{
   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -67,13 +71,19 @@ text-align: center;
 .main-body{
   max-width: 1140px;
   margin: 0px auto;
-  background-color: rgba(13, 19, 33, 0.02);
+  margin-top: 153px;
+  margin-bottom: 153px;
+  
+
 }
 .w-w-d{
-  padding: 80px 97px;
-  background-color: rgb(255, 255, 255);
+  
+
+  margin: auto;
+  
+  
 }
-.title-intro{
+.main-content-intro{
   color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 24px;
@@ -82,16 +92,17 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
 }
-.title-description{
+.main-content-description{
+  opacity: 0.7;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.seemore{
+.seemorey{
   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
@@ -100,10 +111,20 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 padding: 12px 20px 12px 20px;
-border-radius: 0;
 }
-.title-c{
-  justify-content: space-between;
+.main-content{
   display: flex;
+  justify-content: space-between;
   
+  margin: auto;
+  border: 32px solid #0D132105;
+  
+
+}
+.main-main-part{
+  flex-direction: row;
+  padding: 48px;
+}
+.main-content-onlyt{
+  padding: 10px 100px 0px 0px;
 }
