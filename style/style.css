@@ -193,3 +193,50 @@ background: rgba(0, 76, 232, 0.05);
 
 background: rgba(255, 223, 0, 0.05);
 }
+/* footer */
+.footer-title{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.footer-description{
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.last-content{
+  background-image: url(../assets/handshake.jpg);
+  text-align: center;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.submit{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.input{
+  height: 30px;
+  width: 548px;
+}
