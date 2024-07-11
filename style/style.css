@@ -29,6 +29,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 32px;
 }
 .banner-button{
   color: rgb(255, 255, 255);
@@ -39,8 +40,14 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 border-radius: 8px;
+text-decoration: none;
 
 background: rgb(13, 19, 33);
+padding: 21px;
+}
+.banner-button a{
+  text-decoration: none;
+  color: white;
 }
 .banner-content{
   padding: 26px 221px 41px;
@@ -138,6 +145,10 @@ padding: 12px 20px 12px 20px;
   margin-bottom: 151px;
 }
 /* skills */
+.current-tag{
+
+  margin-bottom: 48px;
+}
 .skill-name{
   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -225,6 +236,8 @@ text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 64px 48px;
+  border-radius: 16px;
 }
 .submit{
   color: rgb(13, 19, 33);
@@ -234,9 +247,48 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+border-radius: 8px;
+padding: 6px 8px;
 
 }
 .input{
   height: 30px;
   width: 548px;
+  border-radius: 8px;
+  border-color: white;
+  border-style: none;
+  color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.last-content-description{
+  margin-bottom: 24px;
+}
+/* nav style */
+nav{
+  display: flex;
+  justify-content:space-between;
+  padding: 32px 150px;
+}
+.footer-style{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+background-color:rgba(13, 19, 33, 0.03) ;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 48px;
+}
+nav ul{
+  display: flex;
+ 
 }
